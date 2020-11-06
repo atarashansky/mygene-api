@@ -6,7 +6,7 @@ author: Brian Schrader
 since: 2015-06-26
 """
 
-
+import mygene.api as api
 from api import endpoints, get, post
 
 
