@@ -7,10 +7,9 @@ since: 2015-06-26
 """
 
 import mygene.api
-import mygene.api.endpoints as endpoints
-import mygene.api.get as get
-import mygene.api.post as post
-
+from mygene.api import endpoints
+from mygene.api import get
+from mygene.api import post
 
 class Gene(object):
     """ A model of the gene object returned by Mygene APIs. """
